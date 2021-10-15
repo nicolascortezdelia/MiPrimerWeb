@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="practica de estructura html y css" />
+    <meta name="author" content="Arias Emilse" />
+    <meta name="keywords" content="html, css, titulos,tabla, listas" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <title>Mi primer web</title>
+  </head>
+  <body>
+    <header>
+      <!-- logo de la empresa y barra de navegacion -->
+      <nav>
+        <a href="../index.html">Inicio</a>
+        <a href="elementos.html">Elementos</a>
+        <a href="contacto.html">Contacto</a>
+        <a href="position.html">position</a>
+        <a href="https://www.lagaceta.com.ar/" target="_blank"
+          >Pagina externa</a
+        >
+      </nav>
+    </header>
+    <main>
+      <!-- aqui agrego toda la informacion del sitio, normalmenta cambia entre las distintas paginas -->
+      <section class="titulo">
+        <h1>Practica de HTML5 y CSS3</h1>
+        <p id="subtitulo">
+          Comenzamos nuestra primer pagina web con <b>HTML5</b> y
+          <strong>CSS3</strong>
+        </p>
+      </section>
+     <section class="contenedor">
+        <h2 id=tituloformulario>  Formulario de contacto</h2>
+        </section>
+
+        <section id="tituloformulario">
+        <form>
+            <div>
+                <label for="nombre">Nombre y apellido*</label>
+                <input type="text" id="nombre" placeholder="Juan Perez" required>
+            </div>
+            <div>
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="juanperez@gmail.com">
+            </div>
+            <div>
+                <label for="consulta">Consulta</label>
+                <textarea id="consulta" rows="5" placeholder="agregue una consulta" required></textarea>
+            </div>
+            <div>
+                <label for="opciones">Como nos conociste:</label>
+                <select id="opciones">
+                    <option value="0">Seleccione una opcion</option>
+                    <option value="instagram">Instagram</option>
+                    <option value="facebook">Facebook</option>
+                    <option value="diario">Diario</option>
+                </select>
+            </div>
+            <button type="submit">Enviar</button>
+        </form>
+     </section>
+    </main>
+    <footer>
+      <!-- info del pie de pagina -->
+      <p>&copy; Todos los derechos reservados</p>
+    </footer>
+  </body>
+</html>

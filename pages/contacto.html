@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="practica de estructura html y css" />
+    <meta name="keywords" content="html, css,  titulos, tabla, listas" />
+    <meta name="author" content="Nicolás" />
+    <link rel="stylesheet" href="../css/style.css">
+    
+    <title>Contacto</title>
+  </head>
+  <body>
+    <header>
+      <!-- Logo de la empresa y barra de la navegacion -->
+      <nav>
+        <a href="index.html">Inicio</a>
+        <a href="elementos.html" target="_blank"
+          >Elementos</a>
+        <a href="#">Contacto</a>
+        <a href="https://www.lagaceta.com.ar
+        " target="_blank"> Página Externa</a>
+        
+      </nav>
+    </header>
+    <main>
+      <!-- aquí agrego toda la  información del sitio,  normalmente cambia entre las páginas -->
+      <section class= contenedor>
+        <h2>Formulario de Contacto</h2>
+    
+
+        </section>        
+        
+        <section class="centrado">
+
+        <form>
+            <div>
+                <label for="nombre"> Nombre y Apellido</label>
+            <input type="text" id="nombre" placeholder="Juan Pérez" required>
+
+            </div>
+
+            <div>
+                <label for="email">Email</label>
+            <input type="email" id="email" placeholder="juanperez@gmail.com" required>
+
+
+            </div>
+
+            <div>
+                <label for="consulta">Consulta</label>
+                <textarea id="consulta"  rows="5" placeholder="Agregue una consulta" required></textarea>
+            </div>
+
+            <div>
+                <label for="opciones"> ¿Cómo nos conociste?</label>
+                <select name="" id="opciones">
+                    <option value="0"> Seleccione una opción</option>
+                    <option value="1"> Instagram</option>
+                    <option value="2"> Facebook</option>
+                    <option value="3"> Diarios</option>
+                </select>
+            </div>
+
+            <button type="submit">Enviar</button>
+            
+        </form>
+      </section>
+      <section class="contenedorprincipal">
+        <div class= "box">
+            A
+
+        </div>
+        <div class= box2>
+            B
+
+        </div>
+        <div class= box3>
+            C
+
+        </div>
+        
+        
+      </section>
+    </main>
+    <footer>
+      <!-- info de la página -->
+      <p> &copy;Todos los derechos reservados</p>
+    </footer>
+  </body>
+</html>

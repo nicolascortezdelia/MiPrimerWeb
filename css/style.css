@@ -1,0 +1,381 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto&display=swap');
+/*Selector Universal*/
+
+*{
+
+    margin:0;
+    padding: 0;
+    font-family: 'Bebas Neue', cursive;
+    box-sizing: border-box;
+
+}
+/*Selector de Etiqueta*/
+
+
+/*BARRA DE NAVEGACIÓN*/
+
+nav{
+    background: rgba(21, 21, 21, 0.8);
+    padding: 20px;
+    margin:0%;
+    position: relative;
+    width: 100%;
+    top: 0;
+    text-align: center;
+
+
+
+}
+
+nav a{
+    color:white;
+    text-decoration: none;
+    margin: 0px 5px 0px 5px;
+    
+}
+
+nav a:hover{
+    background: rgba(88, 87, 87, 0.15);
+    padding: 15px 5px 15px 5px;
+}
+
+h2,h3,h4,h5,h6{
+    font-family:'Roboto', sans-serif;
+}
+
+
+
+footer{
+    background: rgba(21, 21, 21, 0.8);
+    color:rgb(255, 255, 255);   
+    text-align:center;
+    padding: 100px;
+
+}
+
+hr{
+    margin: 20px 0px;
+
+}
+
+ul,ol{
+    list-style-position: inside;
+}
+
+/*Selector de Clase*/
+
+.contenedor{
+    margin:30px;
+    
+    
+
+
+}
+
+.titulo{
+    text-align:center;
+    color:rgb(255, 255, 255);
+    padding: 200px, 0px;
+    margin-top: 0px;
+
+}
+
+.imagenCentrada{
+    text-align: center;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    background: blue;
+    position: relative;
+    top: 40px;
+    left: 50px;
+    z-index: -1;
+
+    margin-top: 10px;
+    margin-left: 10px;
+
+}
+
+.box2{
+    width: 100px;
+    height: 100px;
+    background: rgb(179, 255, 0);
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    margin: 0PX, 10px;
+    margin-left: 10px;
+    
+
+}
+
+.box3{
+    width: 100px;
+    height: 100px;
+    background: rgb(0, 255, 64);
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    margin: 0PX, 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+
+}
+
+.contenedorprincipal{
+    border: 1px solid red;
+    position: relative;
+    padding: 300px;
+
+}
+
+
+.bienvenidosrestaurant{
+    
+    text-align:center;
+    position: absolute;
+    color: white;
+    top: 500px;
+    font-size: 200%;
+    width: 100%;
+
+}
+
+
+/* Selector por ID*/
+
+#subtitulo{
+    margin: 10px;
+}
+
+
+#tituloDestacado{
+    background:rgb(179, 255, 0) ;
+}
+
+.bordeTitulo{
+    border: 1px solid red;
+    position:sticky;
+    top: 40px;
+
+}
+
+
+
+/*ETIQUETAS ID DEL RESTAURANTE*/
+
+#mainrestaurante{
+    width: 100%;
+    height: 800px;
+
+}
+
+
+#chat{
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    margin: 0PX, 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+   
+}
+
+#logonav{
+    position: relative;
+    top: 0px;
+    left: -650px;
+}
+
+#barraabajo{
+    color:white;
+    text-decoration: none;
+
+}
+
+#fotochef{
+    position: relative;
+    top: 0px;
+    left: 0 px;
+    padding: 20px;
+    margin: 0%;
+    text-align: center;
+    width: 100%;
+
+
+
+    
+
+}
+
+#parraboutus{
+    margin: 60px, 60px;
+    padding: 30px;
+}
+
+#divfotocomida{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+/* estilo para tablas*/
+
+.fila{
+    background: rgb(158, 230, 15);
+
+}
+
+table{
+    border:5px blue solid;
+}
+
+th,td {
+    padding: 5px;
+}
+
+/*odd=impares */
+
+/*even=impares*/
+tr:nth-child(odd){
+    background: green;
+}
+
+.contenedorPadre{
+    border: 2px purple solid;
+    display:flex;
+}
+
+/*Contenedor padre, eje principal es el horizontal*/
+/*Eje secundario es el vertical*/
+
+
+/*HOJA DE ESTILO DEL FORMULARIO*/
+
+form{
+    border: 1px solid gray;
+    width: 75%;
+    padding: 15px;
+    
+    
+    
+}
+
+form div{
+
+    margin: 15px 0px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+label{
+    margin: 10px 0px;
+}
+
+.centrado{
+    display: flex;
+    justify-content: center;
+}
+
+#tituloformulario{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5px;
+    
+
+}
+
+/*section{
+    border: 2px solid red;
+}*/
+
+
+/*/////////////////MI PRIMER WEB RESPONSIVE/////////////////////*/
+
+/*DISPOSITIVOS PEQUEÑOS*/
+
+@media all and  (min-width: 280px) and (max-width:767px){
+
+    .imagenCentrada {
+        height: 200px;
+        margin: 10px 0px;
+    }
+
+#ImagenHTML{
+    width: 100%;
+    height: 100%;
+}
+
+.titulo{
+    margin-top: 7px;
+}
+
+#subtitulo{
+    color: black;
+}
+
+h1{
+    color: black;
+}
+
+.contenedor {
+    margin: 1px;
+}
+
+footer{
+    padding: 70px;
+}
+
+}
+
+/*DISPOSITIVOS MEDIANOS*/
+
+@media  all and (min-width: 768px) and (max-width:1023px)  {
+    #ImagenHTML{
+        width: 100%;
+        height: 100%;
+    }
+
+    .contenedor {
+        margin: 2px;
+    }
+    .titulo{
+        margin-top: 7px;
+    }
+
+    #subtitulo{
+        color: black;
+    }
+    
+    h1{
+        color: black;
+    }
+    
+}
+
+@media  all and (min-width: 1024px) and (max-width:1366px)  {
+    #ImagenHTML{
+        width: 100%;
+        height: 100%;
+    }
+
+    .contenedor {
+        margin: 5px;
+    }
+    .titulo{
+        margin-top: 7px;
+    }
+
+    #subtitulo{
+        color: black;
+    }
+    
+    h1{
+        color: black;
+    }
+}
